@@ -31,6 +31,7 @@ def index(request):
         'num_instances_available': num_instances_available,
         'num_authors': num_authors,
         'num_visits': num_visits,
+        
     }
 
     return render(request, 'index.html', context=context)
